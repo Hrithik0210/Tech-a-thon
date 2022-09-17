@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033919754215",
+    "project_id": "authwithandroid-8ba9e",
+    "storage_bucket": "authwithandroid-8ba9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033919754215:android:153829897c88a28afbd742",
+        "android_client_info": {
+          "package_name": "com.example.photofiltering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033919754215-3vsl8uvedl8enrq8hi4u81ci4t9bv63d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiloYu2nVrP33ffeglCLG3mWo9dX5E_bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033919754215-3vsl8uvedl8enrq8hi4u81ci4t9bv63d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets Edit"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/guys1"
+        android:layout_marginBottom="140dp"
+       android:layout_marginLeft="-25dp">
+    </ImageView>
+
+
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/editBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/circle2"
+        android:padding="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cameraBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_magic_wand" />
+
+    <ImageView
+        android:id="@+id/frmBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/circle"
+        android:padding="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/cameraBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_filter_frames_24" />
+
+
+    <ImageView
+        android:id="@+id/cameraBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle2"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editBtn"
+        app:srcCompat="@drawable/ic_camera" />
+</RelativeLayout>
