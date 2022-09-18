@@ -9,7 +9,6 @@ import android.content.pm.PackageManager
 import android.provider.MediaStore
 import com.dsphotoeditor.sdk.activity.DsPhotoEditorActivity
 import com.dsphotoeditor.sdk.utils.DsPhotoEditorConstants
-import com.example.photofiltering.ResultActivity
 import android.graphics.Bitmap
 import android.net.Uri
 import com.example.photofiltering.databinding.ActivityMainBinding
